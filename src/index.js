@@ -5,12 +5,12 @@ import App from './App';
 
 // redux
 import { createStore } from 'redux';
-// import allReducers from "./reducer/allReducer";
+import allReducers from "./reducer/allReducer";
 import { Provider } from 'react-redux';
 
 // Store
 const store = createStore(
-  // allReducers,
+  allReducers,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 

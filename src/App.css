@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+/* Nav */
+
+.navWrapper{
+    width: 100vw;
+    height: 87px;
+    background: rgba(255, 169, 2, 0.75);
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 600;
+}
+.navBox1{
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+}
+.navBox2{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.navBox3{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+.navLogo{
+    width: 50px;
+    height: 50px;
+}
+.ownerName{
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    display: flex;
+    margin: 0 -50px;
+}
+.navPipe{
+    width: 53.01px;
+    border: 1px solid #000000;
+    transform: rotate(
+90.47deg
+);
+    align-self: center;
+}
+.navUl{
+    height: 100%;
+    display: flex;
+    width: 770px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    line-height: 21px;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    list-style: none;
+}
+.navUl li{
+    width: 25%;
+    text-align-last: center;
+}
+.navUl li:hover{
+    color: rgb(255 255 255);
+    cursor: pointer;
+}
+.navStorage{
+    height: 55px;
+    margin-top: 33px;
+}
+/* .navStorage:hover .navDropdown{
+    display: block;
+    position: absolute;
+    margin-top: 30px;
+}
+.navDropdown{
+    display: none;
+
+} */
+.navSnableA{
+    width: 25px;
+    height: 25px;
+    margin-left: -100px;
+}
+.navSnableA:hover{
+    cursor: pointer;
+    color: rgb(255 255 255);
+}
+.navMailAdress{
+        height: 25px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #000000;
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        margin-left: -75px;
+}
+.navMailAdress:hover{
+    color: rgb(255 255 255);
+    cursor: pointer;
+}
+
+/* Booking */
+
+.cover{
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 100
+}
+.bookingWrapper{
+    width: 25%;
+    height: 602px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* margin-inline: auto; */
+    position: absolute;
+    top: 18%;
+    left: 37.9%;
+}
+.bookingClose{
+    color: white;
+    background-color: rgb(234 155 0);
+    height: 6%;
+    width: 8%;
+    border-radius: 50%;
+    text-align: center;
+    align-self: flex-end;
+    font-size: 28px;
+    margin-top: -5%;
+    margin-right: 5%;
+}
+.bookingClose:hover{
+    cursor: pointer;
+    background-color: rgb(255 169 2 / 50%);
+}
+.bookingH2{
+    width: 148px;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+.bookingSquareM{
+
+}
+.bookingIntervall{
+
+}
+.bookingStartDate{
+    width: 212px;
+    height: 21px;
+    color: white;
+    font-size: 14px;
+}
+.bookingStartDate input{
+    width: 100%;
+}
+.bookingMessage{
+    width: 212px;
+    height: 173px;
+}
+
+/* Hero */
+
+.heroWrapper{
+    width: 100vw;
+    height: 600px;
+    background-image: url(./img/flytt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heroContentContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.heroLogo{
+    color: rgba(255, 255, 255, 0.75);
+    height: 40%;
+    font-size: 100px;
+}
+.heroH1{
+    height: 45%;
+    font-size: 44px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+}
+.heroH2{
+    height: 8%;
+    font-size: 36px;
+    color: rgba(255, 255, 255, 0.75);
+}
+.heroArrow{    
+    height: 7%;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-right: 5px;
+}
+
+/* FirstSection, SmallSection, MediumSection, BigSection */
+
+.firstSectionWrapper, 
+.smallSectionWrapper,
+.mediumSectionWrapper,
+.bigSectionWrapper{
+    width: 100%;
+    height: 311px;
+    background: rgba(255, 169, 2, 0.75);
+    border: 1px solid #000000;
+    display: flex;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+.smallSectionWrapper,
+.bigSectionWrapper{
+    background: rgba(255, 255, 255, 0.75);
+}
+.firstSectionContainer, 
+.mediumSectionContainer, 
+.smallSectionContainer{
+    height: 100%;
+    width: 33.3%;
+}
+.bigSectionContainer{
+    height: 100%;
+    width: 50%;
+}
+.firstSectionH3,
+.smallSectionH3,
+.mediumSectionH3,
+.bigSectionH3{
+    font-size: 26px;
+    line-height: 30px;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    height: 10%;
+}
+
+.firstSectionImgSmall, 
+.smallSectionImgSmall{
+    height: 55%;
+    margin-bottom: 5%;
+}
+.smallSectionImgSide{
+    height: 55%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.firstSectionImgMedium,
+.firstSectionImgBig,
+.mediumSectionImgCenter{
+    height: 65%;
+}
+.bigSectionImgSide{
+    height: 75%;
+}
+.mediumSectionImgSide{
+    height: 65%;
+    margin-top: 5%;
+}
+.firstSectionP,
+.smallSectionP,
+.mediumSectionP,
+.bigSectionP{
+    font-size: 20px;
+    height: 10%;
+}
+
+/* Questions */
+
+.questionsWrapper,
+.infoWrapper,
+.infoPoppersWrapper,
+.footerWrapper{
+    width: 100%;
+    height: 311px;
+    background: rgba(198, 198, 198, 0.75);
+    border: 1px solid #000000;
+    display: flex;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+.questionsH3,
+.infoH3{
+    font-size: 26px;
+    line-height: 30px;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    height: 10%;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0 0 0);}
+.questionsUl{
+    height: 100%;
+    width: 20%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 24px;
+    margin-top: 1%;
+}
+
+/* Info */
+
+.infoWrapper{
+    display: block;
+}
+.infoP{
+    height: 100%;
+    width: 85%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 1%;
+}
+
+/* InfoPoppers */
+
+.infoPoppersWrapper{
+    background-color: rgba(255, 169, 2, 0.75);
+    flex-direction: column;
+}
+.infoPoppersH3{
+    font-size: 26px;
+    line-height: 30px;
+    height: 10%;
+}
+.infoPoppersContainer{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.infoPoppersBox{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.infoPoppersEllipse{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    align-self: center;
+}
+.infoPoppersIcon{
+    height: 30px;
+    width: 30px;
+    color: white;
+    margin: 20%;
+}
+.infoPoppersP{
+    font-size: 20px;
+    width: 56%;
+    align-self: center;
+    font-weight: 600;
+}
+
+/* Footer */
+
+.footerWrapper{
+    background: rgba(0, 0, 0, 0.75);
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footerBox{
+    height: 100%;
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footerP{
+    color: rgba(255, 169, 2, 0.75);
+    font-size: 18px;
+    line-height: 21px;
+}
+.footerP:hover{
+    cursor: pointer;
+    color: rgba(255, 169, 2, 1);
+}
+.footerH3{
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: normal;
+    color: white;
+}
+.footerSnabel{
+    color: rgba(255, 169, 2, 0.75);
+    font-size: 30px;
+}
+.footerInput{
+    width: 212px;
+    height: 21px;
+}
+.footerTextArea{
+    width: 212px;
+    height: 77px;
+}
+.footerCopywright{
+    font-size: 10px;
+    line-height: 12px;
+    color: rgba(255, 169, 2, 0.75);
+}
+/* .footerContainerRight{
+
+} */
+.footerBoxRight{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.footerLogo{
+    color: rgba(255, 169, 2, 0.75);
+    height: 25px;
+    width: 25px;
+    margin-right: 5%;
+}
+.footerLogo:hover{
+    cursor: pointer;
+    color: rgba(255, 169, 2, 1);
+
+}
+
+/* Btn */
+
+.btn,.btn2{
+    background-color: rgba(255, 169, 2, 0.75);
+    width: 135px;
+    height: 29px;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    font-size: 14px;
+    color: #fff;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+.btn2{
+    height: 10%;
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgba(255, 169, 2, 0.5);
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: rgb(234 155 0);
+    cursor: pointer;
+}
