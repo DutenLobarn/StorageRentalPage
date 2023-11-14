@@ -28,8 +28,8 @@ export default function SmallSection() {
                 {/* bild beroende storlek på förråd, small-medium-big */}
                 <img className="smallSectionImgSide" src={Small} alt="smallstorage"/>
             {/* texten ska sättas beroende vilket storlek på förråden */}
-                <p className="smallSectionP">4 m2 från 499kr/månad</p>
-                <button onClick={handleToggleChange} value="4 m2 från 499kr/månad" className="btn2">Boka Förråd</button>
+                <p className="smallSectionP">4 m2 från 429kr/månad</p>
+                <button onClick={handleToggleChange} value="4 m2 från 429kr/månad" className="btn2">Boka Förråd</button>
             </div>
 
             <div className="smallSectionContainer">
@@ -38,8 +38,8 @@ export default function SmallSection() {
                 {/* bild beroende storlek på förråd, small-medium-big */}
                 <img className="smallSectionImgSmall" src={Small} alt="smallstorage"/>
             {/* texten ska sättas beroende vilket storlek på förråden */}
-                <p className="smallSectionP">5 m2 från 599kr/månad</p>
-                <button onClick={handleToggleChange} value="5 m2 från 599kr/månad" className="btn2">Boka Förråd</button>
+                <p className="smallSectionP">5 m2 från 529kr/månad</p>
+                <button onClick={handleToggleChange} value="5 m2 från 529kr/månad" className="btn2">Boka Förråd</button>
             </div>
             
             <div className="smallSectionContainer">
@@ -47,8 +47,8 @@ export default function SmallSection() {
                 {/* bild beroende storlek på förråd, small-medium-big */}
             <img className="smallSectionImgSide" src={Small} alt="smallstorage"/>
             {/* texten ska sättas beroende vilket storlek på förråden */}
-                <p className="smallSectionP">6 m2 från 699kr/månad</p>
-                <button onClick={handleToggleChange} value="6 m2 från 699kr/månad" className="btn2">Boka Förråd</button>
+                <p className="smallSectionP">6 m2 från 629kr/månad</p>
+                <button onClick={handleToggleChange} value="6 m2 från 629kr/månad" className="btn2">Boka Förråd</button>
             </div>
             
         </section>
