@@ -119,7 +119,6 @@ const handleEmail = () => {
           <Icon className="footerLogo" icon={baselineFacebook} />
           <p className="footerP">Förråds Hotel Bjästa</p>
         </a>
-        {/* </div> */}
       </div>
     </footer>
   );
