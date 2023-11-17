@@ -95,7 +95,7 @@ const handleEmail = () => {
 
       <div className="footerBox">
         {/* <div className="footerContainerRight"> */}
-        <a href="http://localhost:3000/" className="footerBoxRight">
+        <a href="https://forradshotelbjasta.com/" className="footerBoxRight">
           <Icon className="footerLogo" icon={boxSeam} />
           <p className="footerP">Förråds Hotel Bjästa</p>
         </a>
